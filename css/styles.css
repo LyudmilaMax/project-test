@@ -1,0 +1,122 @@
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    color: teal;
+}
+.main-title:hover,
+.main-title:focus {
+    color: rgb(33, 226, 220);
+    transition: color 250ms ;  
+}
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    padding: 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(86, 70%, 90%);
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 25px;
+    line-height: 1;
+    opacity: .75;
+    color: teal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -45px;
+}
+
+.slick-next:before {
+    right: -45px;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slider-block {
+    width: 450px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+.slider__image-link {
+    display: block;
+    
+}
+.slider__image-link:hover,
+.slider__imgage-link:focus {
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.slider__title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        margin-bottom: 4px;
+       color: rgb(38, 125, 125);
+
+        /* color: rgb(76, 88, 76); */
+
+}
+
+.slider__text {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.slider__description {
+    line-height: 1.71;
+    font-weight: 450;
+   
+}
